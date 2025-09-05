@@ -14,9 +14,7 @@ Make sure you have Node.js installed on your system.
    npm install
    ```
 
-## Development
-
-### Running the Development Server
+## Running the Development Server
 
 To start the live development server:
 ```bash
