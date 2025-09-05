@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "live-server",
+    "build:css": "npx @tailwindcss/cli -i ./assets/css/core.css -o ./assets/css/build.min.css --minify --watch "
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "live-server": "^1.2.2",
+    "tailwindcss": "^4.1.13"
+  }
+}

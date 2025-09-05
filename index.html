@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <title>عرب ثيرابي</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets//icons/favicon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.10.0/build/css/intlTelInput.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/choices.js@11.1.0/public/assets/styles/choices.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/build.min.css" />
+  </head>
+  <body class="flex flex-col bg-white">
+    <!-- Header Section -->
+    <header class="sticky top-0 z-40 bg-white shadow h-[63px] lg:h-[72px]">
+      <nav
+        class="container relative mx-auto h-full flex justify-between items-center"
+      >
+        <img src="/assets/icons/logo.svg" alt="عرب ثيرابي" />
+        <button
+          class="block lg:hidden cursor-pointer focus-visible:outline-0"
+          id="menuBtn"
+        >
+          <img id="burgerMenu" src="/assets/icons/menu.svg" alt="Menu Icon" />
+          <img
+            id="closeMenu"
+            class="hidden"
+            src="/assets/icons/close.svg"
+            alt="Close Icon"
+          />
+        </button>
+
+        <div
+          id="menuContent"
+          class="hidden lg:flex items-center justify-center gap-5 lg:gap-10 bg-white flex-col lg:flex-row absolute lg:relative top-full lg:top-0 left-0 w-full lg:w-fit py-4 lg:py-0 shadow-lg lg:shadow-none border-gray-300 border-t lg:border-t-0"
+        >
+          <a href="#" class="font-medium">تسجيل الدخول</a>
+          <button
+            class="font-bold cursor-pointer focus-visible:outline-0 text-white bg-[#EE7B73] border border-[#EE7B73] px-8 py-2 rounded transition ease-in delay-75 hover:text-[#EE7B73] hover:bg-white"
+          >
+            إبدأ الآن
+          </button>
+        </div>
+      </nav>
+    </header>
+    <!-- Main section -->
+    <main class="pb-28">
+      <!-- Head Section -->
+      <div class="relative flex">
+        <div
+          class="absolute inset-0 z-10 bg-[linear-gradient(270.16deg,#154F9C_7.44%,#154F9C_42.42%,#154f9c80_52.23%,#154f9c00_85.34%)]"
+        ></div>
+
+        <div class="container relative z-20">
+          <div
+            class="pt-[90px] pb-[208px] flex flex-col gap-[62px] md:max-w-[548px] text-white"
+          >
+            <h1 class="font-bold text-2xl lg:text-[40px]">
+              هل تهتم شركتك بدعم نفسية و إنتاجية الموظفين ؟
+              <span
+                class="inline-flex items-center justify-center h-8 w-8 text-base lg:w-11 lg:h-11 lg:text-lg bg-[#006EFF] rounded-full"
+              >
+                أو
+              </span>
+            </h1>
+            <p class="text-lg lg:text-2xl">
+              انضم للشركات المتقدمة في عنايتها بالموظفين .
+            </p>
+          </div>
+        </div>
+
+        <div class="absolute end-0 top-0 bottom-0">
+          <img
+            class="h-full object-cover"
+            src="/assets/images/header-section-desktop-img.png"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="w-[calc(100%-2rem)] md:w-[47rem] z-30 bg-white border border-[#D6DFE9] rounded-2xl absolute left-1/2 top-[70%] -translate-x-1/2"
+        >
+          <div
+            class="flex flex-col items-center text-center justify-center gap-5 px-4 pt-16 md:pt-[76px] pb-14 md:pb-[66px]"
+          >
+            <p class="text-base md:text-lg font-bold">
+              نقدم افضل المعايير العالمية بلسان عربي
+            </p>
+            <p class="text-sm md:text-base font-medium">
+              يتم تدريب كافة الاخصائيين والإشراف عليهم من قبل اطباء عرب في
+              المانيا
+            </p>
+            <button
+              type="button"
+              id="ctaBtn"
+              class="mt-2.5 cursor-pointer w-[218px] items-center justify-center text-white bg-[#154F9C] h-[50px] rounded"
+            >
+              اطلب حساب تجريبي
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Statistics Section  -->
+      <div
+        class="mt-24 py-7 lg:py-0 relative md:mt-[105px] min-h-[573px] bg-[#F7FFFF] lg:bg-transparent"
+      >
+        <svg
+          class="hidden lg:block absolute inset-0 w-full h-full object-cover"
+          width="1439"
+          height="573"
+          viewBox="0 0 1439 573"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="xMidYMid slice"
+        >
+          <path
+            d="M1439 88.9512C1127 -126.891 815.5 268.241 -1 0.000244141V573C-1 573 442.517 512 727 512C998.5 512 1439 573 1439 573V88.9512Z"
+            fill="#F7FFFF"
+          />
+        </svg>
+        <div class="container relative z-30">
+          <h2
+            class="pt-28 md:pt-[155px] [word-spacing:0.625rem] leading-14 text-[32px] text-center font-medium"
+          >
+            يعد
+            <span class="relative inline-block">
+              <svg
+                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                width="107"
+                height="87"
+                viewBox="0 0 107 87"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M71.6852 2.13153C75.5715 4.18717 79.3434 7.86026 84.3761 14.1123C88.7563 16.6657 91.8879 15.2221 99.9372 17.6015C107.803 21.0594 106.615 29.5013 106.819 34.1715C107.152 41.7958 97.9348 55.7067 93.1285 63.6144C88.3221 71.5221 78.7289 71.5125 62.5828 74.0833C49.1357 74.8938 45.8673 78.3252 41.5988 81.4305C33.3922 87.4007 21.3143 87.7005 12.9748 81.9173C7.29857 77.981 6.11774 72.3201 5.45814 67.4926C4.81544 62.789 3.37145 58.2443 2.14961 53.6569C1.18978 50.0532 0.342883 45.8709 0.532209 41.6442C1.38477 22.6114 27.6215 29.673 39.8629 15.0743C46.7719 6.83475 62.18 -2.89612 71.6852 2.13153Z"
+                  fill="#FFF734"
+                />
+              </svg>
+
+              <span class="relative z-10 font-bold">القلق</span>
+            </span>
+            من أكثر الإضطرابات النفسية شيوعًا
+          </h2>
+          <div
+            class="mt-28 grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-y-7 gap-x-10 lg:gap-x-[68px]"
+          >
+            <div class="flex flex-col items-center text-center gap-4">
+              <p class="text-[#4E7E76] text-2xl md:text-[32px] font-bold">
+                301 مليون 
+              </p>
+              <p class="text-base md:text-lg font-semibold">
+                مليون شخص حول العالم يعانون من القلق.
+              </p>
+            </div>
+            <div class="flex flex-col items-center text-center gap-4">
+              <p class="text-[#4E7E76] text-2xl md:text-[32px] font-bold">
+                64%
+              </p>
+              <p class="text-base md:text-lg font-semibold">
+                من الأشخاص المصابين بالقلق أو أحد اضطرابات القلق يتعافون بعد
+                تلقي العلاج المناسب
+              </p>
+            </div>
+            <div class="flex flex-col items-center text-center gap-4">
+              <p class="text-[#4E7E76] text-2xl md:text-[32px] font-bold">
+                25%
+              </p>
+              <p class="text-base md:text-lg font-semibold">
+                يتلقى شخص واحد تقريباً من بين كل 4 أشخاص يعانون من اضطرابات
+                القلق العلاج المناسب.
+              </p>
+            </div>
+            <div class="flex flex-col items-center text-center gap-4">
+              <p class="text-[#4E7E76] text-2xl md:text-[32px] font-bold">
+                58 مليون
+              </p>
+              <p class="text-base md:text-lg font-semibold">
+                طفل تم تشخيصه بالقلق.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Arab Therapy Tests Section -->
+      <div class="container mt-8 flex flex-col gap-8">
+        <h3 class="text-center text-lg md:text-2xl font-bold">
+          اختبارات عرب ثيرابي
+        </h3>
+        <div
+          class="grid grid-cols-1 justify-center md:grid-cols-[repeat(auto-fill,minmax(373px,373px))] gap-x-5 gap-y-10 md:gap-y-12"
+        >
+          <div class="flex flex-col gap-6">
+            <div class="rounded-lg overflow-hidden">
+              <img
+                class="w-full"
+                src="/assets/images/arab-test-1.png"
+                alt="اختبار الاكتئاب"
+              />
+            </div>
+            <p class="text-[#1A659E] text-[20px] font-bold">اختبار الاكتئاب</p>
+          </div>
+          <div class="flex flex-col gap-6">
+            <div class="rounded-lg overflow-hidden">
+              <img
+                class="w-full"
+                src="/assets/images/arab-test-2.png"
+                alt="اختبار الاكتئاب بين الأزواج"
+              />
+            </div>
+            <p class="text-[#1A659E] text-[20px] font-bold">
+              اختبار الاكتئاب بين الأزواج
+            </p>
+          </div>
+          <div class="flex flex-col gap-6">
+            <div class="rounded-lg overflow-hidden">
+              <img
+                class="w-full"
+                src="/assets/images/arab-test-3.png"
+                alt="اختبار نفسية عام"
+              />
+            </div>
+            <p class="text-[#1A659E] text-[20px] font-bold">اختبار نفسية عام</p>
+          </div>
+          <div class="flex flex-col gap-6">
+            <div class="rounded-lg overflow-hidden">
+              <img
+                class="w-full"
+                src="/assets/images/arab-test-4.png"
+                alt="اختبار التوتر"
+              />
+            </div>
+            <p class="text-[#1A659E] text-[20px] font-bold">اختبار التوتر</p>
+          </div>
+          <div class="flex flex-col gap-6">
+            <div class="rounded-lg overflow-hidden">
+              <img
+                class="w-full"
+                src="/assets/images/arab-test-5.png"
+                alt="اختبار الاكتئاب العائلي"
+              />
+            </div>
+            <p class="text-[#1A659E] text-[20px] font-bold">
+              اختبار الاكتئاب العائلي
+            </p>
+          </div>
+          <div class="flex flex-col gap-6">
+            <div class="rounded-lg overflow-hidden">
+              <img
+                class="w-full"
+                src="/assets/images/arab-test-6.png"
+                alt="اختبار الوحدة و الخوف"
+              />
+            </div>
+            <p class="text-[#1A659E] text-[20px] font-bold">
+              اختبار الوحدة و الخوف
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-[#F5F7F5] py-10 flex justify-center">
+      <div
+        class="container flex gap-x-2 gap-y-7 justify-center md:justify-between items-center flex-wrap md:flex-nowrap"
+      >
+        <div class="flex items-center justify-center gap-5 flex-wrap lg:gap-8">
+          <a href="#" class="text-lg lg:text-[20px]">الرئيسية</a>
+          <a href="#" class="text-lg lg:text-[20px]">من نحن</a>
+          <a href="#" class="text-lg lg:text-[20px]">أسئلة شائعة</a>
+          <a href="#" class="text-lg lg:text-[20px]">سياسة الخصوصية</a>
+          <a href="#" class="text-lg lg:text-[20px]">الشروط و الأحكام</a>
+          <a href="#" class="text-lg lg:text-[20px]">تواصل معنا</a>
+        </div>
+        <div class="flex gap-4 justify-center items-center">
+          <div
+            class="h-8 w-8 flex items-center justify-center rounded-full bg-[#4E7E76]"
+          >
+            <svg
+              width="16"
+              height="12"
+              viewBox="0 0 16 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.6 2.10003C15.4 1.40003 14.9 0.900025 14.2 0.700025C13 0.400025 7.89999 0.400024 7.89999 0.400024C7.89999 0.400024 2.90001 0.400025 1.60001 0.700025C0.900006 0.900025 0.399997 1.40003 0.199997 2.10003C-3.05474e-06 3.40002 0 6.00002 0 6.00002C0 6.00002 3.03984e-06 8.60002 0.300003 9.90002C0.500003 10.6 0.999997 11.1 1.7 11.3C2.9 11.6 8 11.6 8 11.6C8 11.6 13 11.6 14.3 11.3C15 11.1 15.5 10.6 15.7 9.90002C16 8.60002 16 6.00002 16 6.00002C16 6.00002 16 3.40002 15.6 2.10003ZM6.39999 8.40002V3.60002L10.6 6.00002L6.39999 8.40002Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <div
+            class="h-8 w-8 flex items-center justify-center rounded-full bg-[#4E7E76]"
+          >
+            <svg
+              width="18"
+              height="17"
+              viewBox="0 0 18 17"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.0002 1.5C11.2002 1.5 11.5002 1.5 12.4002 1.5C13.2002 1.5 13.6002 1.7 13.9002 1.8C14.3002 2 14.6002 2.1 14.9002 2.4C15.2002 2.7 15.4002 3 15.5002 3.4C15.6002 3.7 15.7002 4.1 15.8002 4.9C15.8002 5.8 15.8002 6 15.8002 8.3C15.8002 10.6 15.8002 10.8 15.8002 11.7C15.8002 12.5 15.6002 12.9 15.5002 13.2C15.3002 13.6 15.2002 13.9 14.9002 14.2C14.6002 14.5 14.3002 14.7 13.9002 14.8C13.6002 14.9 13.2002 15 12.4002 15.1C11.5002 15.1 11.3002 15.1 9.0002 15.1C6.7002 15.1 6.5002 15.1 5.6002 15.1C4.8002 15.1 4.4002 14.9 4.1002 14.8C3.7002 14.6 3.4002 14.5 3.1002 14.2C2.8002 13.9 2.6002 13.6 2.5002 13.2C2.4002 12.9 2.3002 12.5 2.2002 11.7C2.2002 10.8 2.2002 10.6 2.2002 8.3C2.2002 6 2.2002 5.8 2.2002 4.9C2.2002 4.1 2.4002 3.7 2.5002 3.4C2.7002 3 2.8002 2.7 3.1002 2.4C3.4002 2.1 3.7002 1.9 4.1002 1.8C4.4002 1.7 4.8002 1.6 5.6002 1.5C6.5002 1.5 6.8002 1.5 9.0002 1.5ZM9.0002 0C6.7002 0 6.5002 0 5.6002 0C4.7002 0 4.1002 0.200001 3.6002 0.400001C3.1002 0.600001 2.6002 0.900001 2.1002 1.4C1.6002 1.9 1.4002 2.3 1.1002 2.9C0.900196 3.4 0.800195 4 0.700195 4.9C0.700195 5.8 0.700195 6.1 0.700195 8.3C0.700195 10.6 0.700195 10.8 0.700195 11.7C0.700195 12.6 0.900196 13.2 1.1002 13.7C1.3002 14.2 1.6002 14.7 2.1002 15.2C2.6002 15.7 3.0002 15.9 3.6002 16.2C4.1002 16.4 4.7002 16.5 5.6002 16.6C6.5002 16.6 6.8002 16.6 9.0002 16.6C11.2002 16.6 11.5002 16.6 12.4002 16.6C13.3002 16.6 13.9002 16.4 14.4002 16.2C14.9002 16 15.4002 15.7 15.9002 15.2C16.4002 14.7 16.6002 14.3 16.9002 13.7C17.1002 13.2 17.2002 12.6 17.3002 11.7C17.3002 10.8 17.3002 10.5 17.3002 8.3C17.3002 6.1 17.3002 5.8 17.3002 4.9C17.3002 4 17.1002 3.4 16.9002 2.9C16.7002 2.4 16.4002 1.9 15.9002 1.4C15.4002 0.900001 15.0002 0.700001 14.4002 0.400001C13.9002 0.200001 13.3002 0.1 12.4002 0C11.5002 0 11.3002 0 9.0002 0Z"
+                fill="white"
+              />
+              <path
+                d="M9.0002 4C6.6002 4 4.7002 5.9 4.7002 8.3C4.7002 10.7 6.6002 12.6 9.0002 12.6C11.4002 12.6 13.3002 10.7 13.3002 8.3C13.3002 5.9 11.4002 4 9.0002 4ZM9.0002 11.1C7.5002 11.1 6.2002 9.9 6.2002 8.3C6.2002 6.8 7.4002 5.5 9.0002 5.5C10.5002 5.5 11.8002 6.7 11.8002 8.3C11.8002 9.8 10.5002 11.1 9.0002 11.1Z"
+                fill="white"
+              />
+              <path
+                d="M13.4002 4.9C13.9525 4.9 14.4002 4.45229 14.4002 3.9C14.4002 3.34772 13.9525 2.9 13.4002 2.9C12.8479 2.9 12.4002 3.34772 12.4002 3.9C12.4002 4.45229 12.8479 4.9 13.4002 4.9Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <div
+            class="h-8 w-8 flex items-center justify-center rounded-full bg-[#4E7E76]"
+          >
+            <svg
+              width="16"
+              height="14"
+              viewBox="0 0 16 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 2C15.4 2.3 14.8 2.4 14.1 2.5C14.8 2.1 15.3 1.5 15.5 0.7C14.9 1.1 14.2 1.3 13.4 1.5C12.8 0.9 11.9 0.5 11 0.5C8.9 0.5 7.3 2.5 7.8 4.5C5.1 4.4 2.7 3.1 1 1.1C0.1 2.6 0.6 4.5 2 5.5C1.5 5.5 1 5.3 0.5 5.1C0.5 6.6 1.6 8 3.1 8.4C2.6 8.5 2.1 8.6 1.6 8.5C2 9.8 3.2 10.8 4.7 10.8C3.5 11.7 1.7 12.2 0 12C1.5 12.9 3.2 13.5 5 13.5C11.1 13.5 14.5 8.4 14.3 3.7C15 3.3 15.6 2.7 16 2Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <div
+            class="h-8 w-8 flex items-center justify-center rounded-full bg-[#4E7E76]"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 8C16 3.6 12.4 0 8 0C3.6 0 0 3.6 0 8C0 12 2.9 15.3 6.7 15.9V10.3H4.7V8H6.7V6.2C6.7 4.2 7.9 3.1 9.7 3.1C10.6 3.1 11.5 3.3 11.5 3.3V5.3H10.5C9.5 5.3 9.2 5.9 9.2 6.5V8H11.4L11 10.3H9.1V16C13.1 15.4 16 12 16 8Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Cta Modal overlay -->
+    <div id="ctaModal" class="hidden fixed inset-0 bg-black/50 z-50">
+      <!-- Cta Modal Form overlay -->
+      <div
+        id="ctaModalContent"
+        class="w-full flex flex-col max-h-screen fixed md:w-[48rem] overflow-y-auto left-1/2 top-1/2 -translate-1/2 border border-[#D6DFE9] bg-white md:rounded-2xl px-4 md:px-6 pt-8 pb-12"
+      >
+        <button
+          id="modalCloseBtn"
+          class="min-h-8 self-end min-w-8 max-w-8 cursor-pointer flex items-center justify-center border border-[#D6DFE9] rounded-full focus-visible:outline-0"
+        >
+          <img src="/assets/icons/close.svg" alt="Close Icon" />
+        </button>
+        <h4 class="text-xl lg:text-[1.75rem] text-center font-bold mt-2">
+          أدخل معلوماتك و اطلب حساب تجريبي
+        </h4>
+        <form
+          id="ctaForm"
+          class="cta-form grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-6 mt-8 lg:mt-10"
+        >
+          <div class="flex flex-col">
+            <label
+              class="font-bold mb-2 text-sm text-[#333333] w-fit"
+              for="firstName"
+              >الاسم الأول</label
+            >
+            <input
+              placeholder="الاسم الأول"
+              id="firstName"
+              name="first_name"
+              type="text"
+              class="border text-sm lg:text-base p-2 border-[#D6DFE9] rounded h-10 placeholder:text-[#808080] focus-visible:outline-0"
+            />
+            <div
+              class="error-message min-h-4 field-first_name flex flex-col invisible mt-0.5 gap-0.5 text-red-500 text-xs"
+            ></div>
+          </div>
+          <div class="flex flex-col">
+            <label
+              class="font-bold mb-2 text-sm text-[#333333] w-fit"
+              for="lastName"
+              >الاسم الأخير</label
+            >
+            <input
+              placeholder="الاسم الأخير"
+              id="lastName"
+              name="last_name"
+              type="text"
+              class="border text-sm lg:text-base p-2 border-[#D6DFE9] rounded h-10 placeholder:text-[#808080] focus-visible:outline-0"
+            />
+            <div
+              class="error-message min-h-4 field-last_name flex flex-col invisible mt-0.5 gap-0.5 text-red-500 text-xs"
+            ></div>
+          </div>
+          <div class="flex flex-col">
+            <label
+              class="font-bold mb-2 text-sm text-[#333333] w-fit"
+              for="mobileNumber"
+              >رقم الهاتف</label
+            >
+            <input
+              placeholder="أدخل رقم الهاتف"
+              id="mobileNumber"
+              name="mobile"
+              type="text"
+              class="border w-full text-sm lg:text-base p-2 border-[#D6DFE9] rounded h-10 placeholder:text-[#808080] focus-visible:outline-0"
+            />
+            <div
+              class="error-message min-h-4 field-mobile flex flex-col invisible mt-0.5 gap-0.5 text-red-500 text-xs"
+            ></div>
+          </div>
+          <div class="flex flex-col">
+            <label
+              class="font-bold mb-2 text-sm text-[#333333] w-fit"
+              for="email"
+              >البريد الإلكتروني (الخاص بالعمل)</label
+            >
+            <input
+              placeholder="أدخل البريد الالكتروني"
+              id="email"
+              name="email"
+              type="email"
+              class="border text-sm lg:text-base p-2 border-[#D6DFE9] rounded h-10 placeholder:text-[#808080] focus-visible:outline-0"
+            />
+            <div
+              class="error-message min-h-4 field-email flex flex-col invisible mt-0.5 gap-0.5 text-red-500 text-xs"
+            ></div>
+          </div>
+          <div class="flex flex-col">
+            <label
+              class="font-bold mb-2 text-sm text-[#333333] w-fit"
+              for="companySize"
+              >حجم المؤسسة</label
+            >
+            <select
+              dir="rtl"
+              id="companySize"
+              name="company_size"
+              class="border p-2 border-[#D6DFE9] rounded h-10 focus-visible:outline-0 invalid:!text-[#808080]"
+            >
+              <option value="" disabled selected>اختر حجم الشركة</option>
+              <option value="250 عضو">250 عضو</option>
+              <option value="500 عضو">500 عضو</option>
+              <option value="600 عضو">600 عضو</option>
+            </select>
+            <div
+              class="error-message min-h-4 field-company_size flex flex-col invisible mt-0.5 gap-0.5 text-red-500 text-xs"
+            ></div>
+          </div>
+          <div class="flex flex-col">
+            <label
+              class="font-bold mb-2 text-sm text-[#333333] w-fit"
+              for="companyName"
+              >اسم المؤسسة</label
+            >
+            <input
+              placeholder="أدخل اسم الشركة"
+              id="companyName"
+              name="organization_name"
+              type="text"
+              class="border text-sm lg:text-base p-2 border-[#D6DFE9] rounded h-10 placeholder:text-[#808080] focus-visible:outline-0"
+            />
+            <div
+              class="error-message min-h-4 field-organization_name flex flex-col invisible mt-0.5 gap-0.5 text-red-500 text-xs"
+            ></div>
+          </div>
+          <div
+            class="col-span-1 md:col-span-2 text-sm lg:text-base font-medium mt-10 lg:mt-12"
+          >
+            "تحتاج Arab Therapy - عرب ثيرابي إلى معلومات الاتصال التي تقدمها لنا
+            للتواصل معك بشأن منتجاتنا وخدماتنا. يمكنك إلغاء الاشتراك وايقاف
+            التواصل ما بيننا في أي وقت. للحصول على معلومات حول كيفية إلغاء
+            الاشتراك، بسبب ممارسات الخصوصية لدينا وتعهدنا بحماية خصوصيتك، يرجى
+            مراجعة سياسة الخصوصية الخاصة بنا."
+          </div>
+          <div class="col-span-1 md:col-span-2 flex justify-end">
+            <button
+              type="submit"
+              class="mt-10 disabled:opacity-50 disabled:cursor-not-allowed lg:mt-12 cursor-pointer w-[13.75rem] items-center justify-center text-white bg-[#154F9C] h-[50px] rounded"
+            >
+              اطلب حساب تجريبي
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Toast Wrapper -->
+    <div
+      id="toastWrapper"
+      class="toast-success fixed top-4 start-4 z-[100] max-w-sm w-full bg-white border-l-4 rounded-lg shadow-lg transform transition-all duration-300 ease-in-out translate-x-full opacity-0"
+    >
+      <div class="flex items-start gap-1 p-4">
+        <div class="flex-shrink-0">
+          <svg
+            class="toast-success-icon w-5 h-5 text-green-400"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+
+          <svg
+            class="toast-error-icon w-5 h-5 text-red-400 hidden"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </div>
+        <div class="me-3 w-0 flex-1">
+          <p class="text-sm font-medium text-gray-900">
+            <span id="toastMessage">ssss</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/choices.js@11.1.0/public/assets/scripts/choices.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.10.0/build/js/intlTelInput.min.js"></script>
+    <script src="/assets/js/toast.js"></script>
+    <script type="module" src="assets/js/core.js"></script>
+  </body>
+</html>
